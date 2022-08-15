@@ -1,0 +1,30 @@
+.filter-list-wrapper {
+  width: 100%;
+  padding: 1rem;
+}
+
+.filter-list {
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  margin: 0 auto;
+  padding: 1rem 0;
+  border-radius: 5px;
+  background-color: #fff;
+}
+
+.filter-list__category {
+  opacity: 0.6;
+  margin: 0 1rem;
+  cursor: pointer;
+}
+
+.filter-list__category.active {
+  color: blueviolet;
+}
+
+@media (min-width: 375px) {
+  .filter-list {
+    width: 75%;
+  }
+}
